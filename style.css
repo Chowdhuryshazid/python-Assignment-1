@@ -1,0 +1,165 @@
+body {
+  display: flex;
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+.sidebar {
+  width: 180px;
+  background-color: #f04e23;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  height: 45%;
+}
+
+.sidebar .logo {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin: 10px 0;
+}
+
+.sidebar nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #f04e23;
+  }
+
+  p {
+    line-break: auto;
+
+  }
+
+  b {
+    line-break: auto;
+
+  }
+
+
+
+
+.images {
+  display:flex;
+  flex-wrap: wrap;
+  
+}
+
+.images img {
+  width: calc(33.33% - 10px);
+  margin: 5px;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-member {
+  text-align: center;
+  width: 30%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.packages {
+  text-align: center;
+  padding: 20px;
+}
+
+.package {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 45%;
+  text-align: center;
+  margin: 10px;
+}
+
+.packages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+button.signup {
+  width: 100%;
+  padding: 10px;
+  background-color: #f04e23;
+  margin-top: 10px;
+}
+
+.thank-you {
+  display: none;
+  margin-top: 10px;
+  color: green;
+}
+
+
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+}
+
+form input, form textarea {
+  margin-top: 5px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #f04e23;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+}
+
+
+
+
+
+
